@@ -1,1 +1,6 @@
 theme: jekyll-theme-leap-day
+title: Longhorn Open Ed Tech
+description: Open-source education tools, based out of the University of Texas at Austin
+show_downloads: false
+github:
+  repository_url: https://github.com/longhornopen/
