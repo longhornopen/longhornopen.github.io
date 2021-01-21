@@ -20,7 +20,7 @@ Want to help with an existing project, or want more info?  Look at the project's
 
 Want to talk to us?  Contact us at:
 * <i class="fas fa-envelope-square fa-2x"></i> [longhorn_open_ed_tech@utlists.utexas.edu](mailto:longhorn_open_ed_tech@utlists.utexas.edu)
-* <i class="fab fa-twitter-square fa-2x"></i> (coming soon)
+* <i class="fab fa-twitter-square fa-2x"></i> [LonghornOpenET](https://twitter.com/LonghornOpenET)
 
 ## Projects
 
