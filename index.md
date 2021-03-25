@@ -42,11 +42,17 @@ Stacks is a tool for producing lightweight media-rich online textbooks.  Stacks 
 Instapoll allows you to run light quizzes and classroom polling, which can be optionally graded.  Instapoll plugs into your Learning Management System as an LTI app.
 <br clear="all">
 
-### Canvas Peer Grading ![beta](/images/status_beta.svg)
+### Qualtrics LTI ![available](/images/status_available.svg)
+<i class="fab fa-github"></i> <a href="https://github.com/longhornopen/qualtrics-lti">Project page</a>
+[//]: <> <p style="float:left;"><a href="/images/screenshot_qualtricslti.png"><img src="/images/screenshot_qualtricslti.png" class="product_screenshot" alt="Qualtrics LTI screenshot"></a></p>
+The Qualtrics LTI tool allows you to give Qualtrics surveys through your LMS, which may optionally be graded.
+<br clear="all">
+
+### Canvas Peer Grading ![available](/images/status_available.svg)
+<i class="fab fa-github"></i> <a href="https://github.com/longhornopen/canvas-peer-grade-calculator">Project page</a>
 [//]: <> <p style="float:left;"><a href="/images/screenshot_peergrading.png"><img src="/images/screenshot_peergrading.png" class="product_screenshot" alt="Canvas Peer Grading screenshot"></a></p>
 Canvas Peer Grading gives you some additional options for grading peer-review assignments in Canvas.
 <br clear="all">
-<i class="fab fa-github"></i> <a href="https://github.com/longhornopen/chatter">Chatter project page</a>
 
 ## Code libraries
 
