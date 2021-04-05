@@ -1,0 +1,116 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+// colors
+// primary palette
+$primary: #bf5700;
+$secondary: #333f48;
+$tertiary: #ffffff;
+// secondary palette
+$orange: #f8971f;
+$yellow: #ffd600;
+$light-green: #a6cd57;
+$green: #579d42;
+$light-blue: #00a9b7;
+$blue: #005f86;
+$blue-gray: #9cadb7;
+$beige: #d6d2c4;
+
+#banner {
+    background-color: $primary;
+    border: none;
+    .button {
+        border: 1px solid $orange;
+        background-color: $orange;
+        box-shadow: none;
+        color: $tertiary;
+    }
+    .button:hover {
+        border: 1px solid $secondary;
+        background-color: $secondary;
+    }
+}
+
+header {
+    background: none;
+    background-color: $secondary;
+    h1 {
+        font-family: 'Libre Franklin', sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+body {
+    background: none;
+    background-color: lighten($beige, 10%);
+}
+
+strong {
+    color: inherit;
+}
+
+section {
+    border: none;
+}
+
+h3 {
+    display: flex;
+    img {
+        margin-left: 10px;
+    }
+}
+
+i {
+    color: $primary;
+    font-size: 1.5em;
+}
+
+a {
+    color: $primary;
+}
+
+.card {
+    border: lighten($blue-gray, 25%) 1px solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 20px 0;
+    display: flex;
+    .decorative-underline {
+        height: 3px;
+        width: 50px;
+        background-color: $primary;
+        margin-bottom: 10px;
+    }
+    .col-1 {
+        flex: 1;
+        padding: 0 20px 0 0;
+        display: flex;
+        align-items: center;
+    }
+    .col-2 {
+        flex: 4;
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            img {
+                align-self: center;
+            }
+        }
+    }
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-link {
+    display: flex;
+    .icon {
+        margin-right: 10px;
+    }
+}
+

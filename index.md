@@ -19,18 +19,40 @@ Longhorn Open Ed Tech is an open-source consortium based at the University of Te
 Want to help with an existing project, or want more info?  Look at the project's Github page below.
 
 Want to talk to us?  Contact us at:
-* <i class="fas fa-envelope-square fa-2x"></i> [longhorn_open_ed_tech@utlists.utexas.edu](mailto:longhorn_open_ed_tech@utlists.utexas.edu)
-* <i class="fab fa-twitter-square fa-2x"></i> [LonghornOpenET](https://twitter.com/LonghornOpenET)
-
-## Projects
-
-### Chatter ![beta](/images/status_beta.svg)
-<i class="fab fa-github"></i> <a href="https://github.com/longhornopen/chatter">Project page</a>
-<p style="float:left;"><a href="/images/screenshot_chatter.png"><img src="/images/screenshot_chatter.png" class="product_screenshot" alt="Chatter screenshot"></a></p>
-Chatter allows you to add threaded discussions to your course.
-
-Chatter plugs into your Learning Management System as an LTI app.
+<div class="contact-links">
+  <a class="icon-link" href="longhorn_open_ed_tech@utlists.utexas.edu" target="blank">
+    <div class="icon"><i class="fas fa-envelope"></i></div>
+    <div>longhorn_open_ed_tech@utlists.utexas.edu</div>
+  </a>
+  <a class="icon-link" href="https://twitter.com/LonghornOpenET" target="blank">
+    <div class="icon"><i class="fab fa-twitter"></i></div>
+    <div>LonghornOpenET</div>
+  </a>
+</div>
 <br clear="all">
+
+# Projects
+
+<div class="card">
+  <div class="col-1">
+    <img src="./images/chatter-logo.svg">
+  </div>
+  <div class="col-2">
+    <div class="project-header">
+      <h2>Chatter</h2>
+      <img src="./images/status_beta.svg">
+    </div>
+    <div class="decorative-underline"></div>
+    <p>Chatter is a free discussion-board tool.  Students can talk in free-form threaded discussions, moderated by a teacher or a TA.  Install in your course to access the beta version.</p>
+    <p>Chatter plugs into your Learning Management System as an LTI app.</p>
+    <a class="icon-link" href="https://github.com/longhornopen/chatter" target="blank">
+      <div class="icon"><i class="fab fa-github" size="md"></i></div>
+      <div>View Project on GitHub</div>
+    </a>
+  </div>
+
+
+</div>
 
 ### Stacks ![coming soon](/images/status_coming_soon.svg)
 [//]: <> <p style="float:left;"><a href="/images/screenshot_stacks.png"><img src="/images/screenshot_stacks.png" class="product_screenshot" alt="Stacks screenshot"></a></p>
@@ -54,7 +76,7 @@ The Qualtrics LTI tool allows you to give Qualtrics surveys through your LMS, wh
 Canvas Peer Grading gives you some additional options for grading peer-review assignments in Canvas.
 <br clear="all">
 
-## Code libraries
+# Code libraries
 
 We also produce a few code libraries, which may help you if you're building an app of your own.
 
