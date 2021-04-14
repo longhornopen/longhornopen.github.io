@@ -3,14 +3,6 @@ layout: default
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-<style>
-.product_screenshot {
-  width:200px;
-  height:200px;
-  margin-left:10px;
-  margin-right:10px;
-}
-</style>
 
 # About Us
 
@@ -33,99 +25,56 @@ Want to talk to us?  Contact us at:
 
 # Projects
 
-<div class="card">
-  <div class="col-1">
-    <img src="./images/chatter-logo.svg">
-  </div>
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Chatter</h2>
-      <img src="./images/status_beta.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>Chatter is a free discussion-board tool.  Students can talk in free-form threaded discussions, moderated by a teacher or a TA.  Install in your course to access the beta version.</p>
-    <p>Chatter plugs into your Learning Management System as an LTI app.</p>
-    <a class="icon-link" href="https://github.com/longhornopen/chatter" target="blank">
-      <div class="icon"><i class="fab fa-github" size="md"></i></div>
-      <div>View Project on GitHub</div>
-    </a>
-  </div>
-</div>
+{% capture chatter_desc %}
+<p>Chatter is a free discussion-board tool.  Students can talk in free-form threaded discussions, moderated by a teacher or a TA.  Install in your course to access the beta version.</p>
+<p>Chatter plugs into your Learning Management System as an LTI app.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   logo_image='images/chatter-logo.svg'
+   repo_name='Chatter'
+   repo_url='chatter'
+   status='beta'
+   desc=chatter_desc
+%}
 
-<div class="card">
-  <div class="col-1">
-    <img src="./images/instapoll-logo.svg">
-  </div>
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Instapoll</h2>
-      <img src="./images/status_coming_soon.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>Instapoll allows you to run light quizzes and classroom polling, which can be optionally graded.  Instapoll plugs into your Learning Management System as an LTI app.</p>
-    <!-- TODO: link Instapoll GitHub when avail -->
-    <!-- <a class="icon-link" href="" target="blank">
-      <div class="icon"><i class="fab fa-github" size="md"></i></div>
-      <div>View Project on GitHub</div>
-    </a> -->
-  </div>
-</div>
+{% capture instapoll_desc %}
+<p>Instapoll allows you to run light quizzes and classroom polling, which can be optionally graded.  Instapoll plugs into your Learning Management System as an LTI app.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   logo_image='images/instapoll-logo.svg'
+   repo_name='Instapoll'
+   status='coming_soon'
+   desc=instapoll_desc
+%}
 
-<div class="card">
-  <div class="col-1">
-    <img src="./images/qualtrics-lti-logo.png">
-  </div>
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Qualtrics LTI</h2>
-      <img src="./images/status_available.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>This tool allows you to create a survey or quiz in Qualtrics and offer it to your students through Canvas as a graded activity. Grades can be either completion grades, or a grade calculated by Qualtrics.</p>
-    <a class="icon-link" href="https://github.com/longhornopen/qualtrics-lti" target="blank">
-      <div class="icon"><i class="fab fa-github" size="md"></i></div>
-      <div>View Project on GitHub</div>
-    </a>
-  </div>
-</div>
+{% capture qlti_desc %}
+<p>Instapoll allows you to run light quizzes and classroom polling, which can be optionally graded.  Instapoll plugs into your Learning Management System as an LTI app.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   logo_image='images/qualtrics-lti-logo.png'
+   repo_name='Qualtrics LTI'
+   repo_url='qualtrics-lti'
+   desc=qlti_desc
+%}
 
-<div class="card">
-  <div class="col-1">
-    <img src="./images/canvas-peer-grading-logo.png">
-  </div>
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Canvas Peer Grading</h2>
-      <img src="./images/status_available.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>The Peer Review Tool makes grading a peer review assignment much easier.  After your students have reviewed and graded their peers, use this tool to easily view individual grades and comments, calculate average scores, identify outliers, export grades to Excel and import average scores to the Canvas grade book.</p>
-    <a class="icon-link" href="https://github.com/longhornopen/canvas-peer-grade-calculator" target="blank">
-      <div class="icon"><i class="fab fa-github" size="md"></i></div>
-      <div>View Project on GitHub</div>
-    </a>
-  </div>
-</div>
+{% capture peer_desc %}
+<p>The Peer Review Tool makes grading a peer review assignment much easier.  After your students have reviewed and graded their peers, use this tool to easily view individual grades and comments, calculate average scores, identify outliers, export grades to Excel and import average scores to the Canvas grade book.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   logo_image='images/canvas-peer-grading-logo.png'
+   repo_name='Canvas Peer Grading'
+   repo_url='canvas-peer-grade-calculator'
+   desc=peer_desc
+%}
 
-<div class="card">
-  <!-- TODO: link Stacks icon when available -->
-  <!-- <div class="col-1">
-    <img src="">
-  </div> -->
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Stacks</h2>
-      <img src="./images/status_coming_soon.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>Stacks is a tool for producing lightweight media-rich online textbooks.  Stacks plugs into your Learning Management System as an LTI app.</p>
-    <!-- TODO: Link Stacks GitHub link when avail -->
-    <!-- <a class="icon-link" href="" target="blank">
-      <div class="icon"><i class="fab fa-github" size="md"></i></div>
-      <div>View Project on GitHub</div>
-    </a> -->
-  </div>
-</div>
+{% capture stacks_desc %}
+<p>Stacks is a tool for producing lightweight media-rich online textbooks.  Stacks plugs into your Learning Management System as an LTI app.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   repo_name='Stacks'
+   status='coming_soon'
+   desc=stacks_desc
+%}
 
 <br clear="all">
 
@@ -133,46 +82,21 @@ Want to talk to us?  Contact us at:
 
 We also produce a few code libraries, which may help you if you're building an app of your own.
 
-<div class="card">
-  <!-- TODO: link PHP Canvas API logo if it has one -->
-  <!-- <div class="col-1">
-    <img src="">
-  </div> -->
-  <div class="col-2">
-    <div class="project-header">
-      <h2>PHP Canvas API</h2>
-      <img src="./images/status_coming_soon.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>A PHP library allowing applications to easily talk to Canvas via the Canvas API.  This library handles the mechanics of authorization and response pagination.</p>
-    <!-- TODO: Link PHP Canvas API GitHub link when avail -->
-    <!-- <a class="icon-link" href="" target="blank">
-      <div class="icon"><i class="fab fa-github"></i></div>
-      <div>View Project on GitHub</div>
-    </a> -->
-  </div>
-</div>
+{% capture phpcanvasapi_desc %}
+<p>A PHP library allowing applications to easily talk to Canvas via the Canvas API.  This library handles the mechanics of authorization and response pagination.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   repo_name='PHP Canvas API'
+   repo_url='php-canvas-api'
+   desc=phpcanvasapi_desc
+%}
 
-<div class="card">
-  <!-- TODO: link Laravel LTI logo if it has one -->
-  <!-- <div class="col-1">
-    <img src="">
-  </div> -->
-  <div class="col-2">
-    <div class="project-header">
-      <h2>Laravel LTI</h2>
-      <img src="./images/status_beta.svg">
-    </div>
-    <div class="decorative-underline"></div>
-    <p>A PHP library which makes it easy to support LTI in a Laravel app.  Provides several Laravel-friendly wrappers around the <a href="https://github.com/celtic-project/LTI-PHP" target="blank">Celtic LTI</a> library.</p>
-    <a class="icon-link" href="https://github.com/longhornopen/laravel-celtic-lti" target="blank">
-      <div class="icon"><i class="fab fa-github"></i></div>
-      <div>View Project on GitHub</div>
-    </a>
-  </div>
-</div>
-
-
-
-
-
+{% capture laravellti_desc %}
+<p>A PHP library which makes it easy to support LTI in a Laravel app.  Provides several Laravel-friendly wrappers around the <a href="https://github.com/celtic-project/LTI-PHP" target="blank">Celtic LTI</a> library.</p>
+{% endcapture %}
+{% include homepage_product_bar.html
+   repo_name='Laravel LTI'
+   repo_url='laravel-celtic-lti'
+   status='beta'
+   desc=laravellti_desc
+%}

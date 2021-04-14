@@ -1,0 +1,23 @@
+<div class="card">
+    {% if include.logo_image %}
+    <div class="col-1">
+        <img src="{{include.logo_image}}" alt="{{include.repo_name}} Logo">
+    </div>
+    {% endif %}
+    <div class="col-2">
+        <div class="project-header">
+            <h2>{{include.repo_name}}</h2>
+            {% if include.status %}
+            <img src="./images/status_{{include.status}}.svg" alt="Status: {{include.status}}">
+            {% endif %}
+        </div>
+        <div class="decorative-underline"></div>
+        {{include.desc}}
+        {% if include.repo_url %}
+        <a class="icon-link" href="https://github.com/longhornopen/{{include.repo_url}}" target="blank">
+            <div class="icon"><i class="fab fa-github" size="md"></i></div>
+            <div>View Project on GitHub</div>
+        </a>
+        {% endif %}
+    </div>
+</div>
