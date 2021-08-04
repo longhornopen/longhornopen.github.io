@@ -33,7 +33,6 @@ Want to talk to us?  Contact us at:
    logo_image='images/chatter-logo.svg'
    repo_name='Chatter'
    repo_url='chatter'
-   status='beta'
    desc=chatter_desc
 %}
 
