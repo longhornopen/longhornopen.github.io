@@ -66,15 +66,6 @@ Want to talk to us?  Contact us at:
    desc=peer_desc
 %}
 
-{% capture stacks_desc %}
-<p>Stacks is a tool for producing lightweight media-rich online textbooks.  Stacks plugs into your Learning Management System as an LTI app.</p>
-{% endcapture %}
-{% include homepage_product_bar.html
-   repo_name='Stacks'
-   status='coming_soon'
-   desc=stacks_desc
-%}
-
 <br clear="all">
 
 # Code Libraries
