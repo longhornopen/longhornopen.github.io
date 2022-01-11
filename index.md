@@ -16,10 +16,6 @@ Want to talk to us?  Contact us at:
     <div class="icon"><i class="fas fa-envelope"></i></div>
     <div>longhorn_open_ed_tech@utlists.utexas.edu</div>
   </a>
-  <a class="icon-link" href="https://twitter.com/LonghornOpenET" target="blank">
-    <div class="icon"><i class="fab fa-twitter"></i></div>
-    <div>LonghornOpenET</div>
-  </a>
 </div>
 <br clear="all">
 
