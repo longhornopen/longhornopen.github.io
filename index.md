@@ -32,16 +32,6 @@ Want to talk to us?  Contact us at:
    desc=chatter_desc
 %}
 
-{% capture instapoll_desc %}
-<p>Instapoll allows you to run light quizzes and classroom polling, which can be optionally graded.  Instapoll plugs into your Learning Management System as an LTI app.</p>
-{% endcapture %}
-{% include homepage_product_bar.html
-   logo_image='images/instapoll-logo.svg'
-   repo_name='Instapoll'
-   status='coming_soon'
-   desc=instapoll_desc
-%}
-
 {% capture qlti_desc %}
 <p>Qualtrics LTI allows you to create a survey or quiz in Qualtrics and offer it to your students as a graded activity. Grades can be either completion grades, or a grade calculated by Qualtrics.  Qualtrics LTI plugs into your Learning Management System as an LTI app.</p>
 {% endcapture %}
